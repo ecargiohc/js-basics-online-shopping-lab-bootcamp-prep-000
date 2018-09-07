@@ -60,12 +60,6 @@ function removeFromCart(item) {
   }
 
 function placeOrder(cardNumber) {
-  for (i = 0; i < cart.length; i++); {
-    if (cardNumber === 0);{
-      return "Sorry, we don't have a credit card on file for you."; 
-  }
-     {
-      return "Your total cost is $71, which will be charged to the card 83296759.";
-    }
-  }
+  if (cardNumber === 0);
+    return "Sorry, we don't have a credit card on file for you."
 }
