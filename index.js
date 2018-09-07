@@ -66,6 +66,6 @@ function placeOrder(cardNumber) {
     }
   }
     cart.length = 0;
-      return "Your total cost is $71, which will be charged to the card 83296759.";
+      return `Your total cost is ${total}, which will be charged to the card ${placeOrder}.`;
   
 }
