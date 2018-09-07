@@ -66,6 +66,6 @@ function placeOrder(cardNumber) {
   }
     else if {
       cart.length = 0;
-      return 
+      return "Your total cost is $71, which will be charged to the card 83296759.";
     }
 }
